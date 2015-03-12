@@ -1,0 +1,43 @@
+{
+  "name": "snack",
+  "version": "1.0.0",
+  "description": "Generic functional library for javascript/node.js",
+  "author": {
+    "name": "Guoqiang Chen",
+    "email": "subchen@gmail.com",
+    "url": "https://github.com/subchen"
+  },
+  "contributors": [],
+  "license": "Apache-2.0",
+  "repository": "subchen/snack",
+  "homepage": "http://subchen.github.io/snack",
+  "keywords": [
+    "snack",
+    "framework",
+    "util",
+    "crypto",
+    "dom",
+    "widget",
+    "io",
+    "text",
+    "template"
+  ],
+  "dependencies": {
+    "es6-shim": "^0.27.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "directories": {
+    "doc": "./doc",
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+*.log
+
+.idea/
+*.iml
+*.iws
+
+.settings/
+.project
+.classpath

@@ -1,0 +1,24 @@
+.ng-dirty.ng-valid, 
+.ng-submitted .ng-valid {
+    border-color: #3C763D !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.ng-dirty.ng-valid:focus, 
+.ng-submitted .ng-valid:focus {
+    border-color: #2B542C !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 6px #67B168;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 6px #67B168;
+}
+.ng-dirty.ng-invalid, 
+.ng-submitted .ng-invalid {
+    border-color: #A94442 !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.ng-dirty.ng-invalid:focus, 
+.ng-submitted .ng-invalid:focus {
+    border-color: #843534 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 6px #CE8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 6px #CE8483;
+}

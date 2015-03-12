@@ -1,0 +1,16 @@
+(function(root) {
+    var define = root.snack.define;
+
+    /* module define in here -- begin */
+
+    /*
+    sample modules
+    define('foo/bar', function(require, exports, module) {
+        var x = require('foo/xxx');
+
+        // exports a object
+
+        // return {};
+        // module.exports = {};
+    });
+    */
