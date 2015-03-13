@@ -23,10 +23,12 @@
     "template"
   ],
   "dependencies": {
+    "clone": "^1.0.1",
     "es6-shim": "^0.27.1"
   },
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "js-beautify": "^1.5.5"
   },
   "engines": {
     "node": ">= 0.10.0"
