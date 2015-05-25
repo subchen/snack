@@ -15,31 +15,37 @@
     "snack",
     "framework",
     "util",
-    "crypto",
-    "dom",
-    "widget",
-    "io",
-    "text",
-    "template"
+    "lang",
+    "string",
+    "crypto"
   ],
   "dependencies": {
-    "clone": "^1.0.1",
-    "es6-shim": "^0.27.1"
+    "snack-string": "^1.2.0"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "js-beautify": "^1.5.5"
+    "chai": "^2.3.0",
+    "coveralls": "^2.11.2",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-jsbeautifier": "^0.2.10",
+    "grunt-jscs": "^1.6.0",
+    "grunt-trimtrailingspaces": "^1.1.0",
+    "istanbul": "^0.3.13",
+    "load-grunt-tasks": "^3.2.0",
+    "mocha": "^2.2.4",
+    "mocha-lcov-reporter": "0.0.2"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "directories": {
-    "doc": "./doc",
-    "lib": "./lib",
-    "bin": "./bin"
-  },
   "main": "index.js",
+  "directories": {
+    "lib": "./lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test-sa": "grunt sa",
+    "test-cc": "istanbul cover _mocha -- --reporter mocha-lcov-reporter",
+    "test-cc-post": "cat ./coverage/lcov.info | coveralls"
   }
 }

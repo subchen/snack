@@ -1,33 +1,23 @@
 {
-    /* common */
-    "indent_size": "4",
-    "indent_char": " ",
-    "end_with_newline": true,
-    
-    /* js */
-    "indent_with_tabs": false,
-    "indent_inner_html": false,
-    "preserve_newlines": true,
-    "max_preserve_newlines": "2",
-    "jslint_happy": true,
-    "space_in_paren": false,
-    "space_in_empty_paren": false,
-    "space_before_conditional": true,
-    "space_after_anon_function": true,
-    "brace_style": "collapse",
-    "keep_array_indentation": false,
-    "break_chained_methods": false,
-    "unescape_strings": false,
-    "comma_first": false,
-    "wrap_line_length": "0",
-
-    /* css */
-    "selector_separator_newline": true,
-    "newline_between_rules": true,
-
-    /* html */
-    "unformatted": ["a", "span", "img", "bdo", "em", "strong", "dfn", "code", "samp", "kbd", "var", "cite", "abbr", "acronym", "q", "sub", "sup", "tt", "i", "b", "big", "small", "u", "s", "strike", "font", "ins", "del", "pre", "address", "dt", "h1", "h2", "h3", "h4", "h5", "h6"],
-    "indent_handlebars": false,
-    "wrap_attributes": "auto",
-    "wrap_attributes_indent_size": 4
+  "braceStyle": "collapse",
+  "breakChainedMethods": false,
+  "commaFirst": false,
+  "e4x": false,
+  "evalCode": false,
+  "indentChar": " ",
+  "indentLevel": 0,
+  "indentSize": 4,
+  "indentWithTabs": false,
+  "indentInnerHtml": false,
+  "indentScripts": "normal",
+  "jslintHappy": false,
+  "keepArrayIndentation": false,
+  "keepFunctionIndentation": false,
+  "maxPreserveNewlines": 2,
+  "preserveNewlines": true,
+  "spaceBeforeConditional": true,
+  "spaceInParen": false,
+  "unescapeStrings": false,
+  "wrapLineLength": 0,
+  "endWithNewline": true
 }
