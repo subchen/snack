@@ -25,7 +25,7 @@ describe('crypto encode/decode', function() {
             equal(base64.encode('中文'), '5Lit5paH');
         });
     });
-    
+
     describe('#base64.decode()', function() {
         it('Decodes base64 string', function() {
             var base64 = crypto.base64;

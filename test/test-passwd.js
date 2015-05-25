@@ -23,5 +23,5 @@ describe('crypto passwd', function() {
             assert.isTrue(passwd.check('中文', '3c9116e0a8ca88212c9d0b97dbcc6d1b'));
         });
     });
-    
+
 });

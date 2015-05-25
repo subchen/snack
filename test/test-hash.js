@@ -14,7 +14,7 @@ describe('crypto hash', function() {
             equal(md5('123'), '202cb962ac59075b964b07152d234b70');
         });
     });
-    
+
     describe('#sha1()', function() {
         it('Returns a sha1 hash string', function() {
             var sha1 = crypto.sha1;
@@ -23,7 +23,7 @@ describe('crypto hash', function() {
             equal(sha1('123'), '40bd001563085fc35165329ea1ff5c5ecbdbbeef');
         });
     });
-    
+
     describe('#sha256()', function() {
         it('Returns a sha256 hash string', function() {
             var sha256 = crypto.sha256;
